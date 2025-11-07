@@ -1,0 +1,46 @@
+/* Aqui eu defino o visual geral da página, tipo cor de fundo e fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Essa parte é o cabeçalho azul com o nome do sistema */
+.cabecalho {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Aqui é a parte principal onde ficam os botões */
+.conteudo {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;     /* centraliza verticalmente (opcional) */
+    gap: 20px;               /* espaçamento entre os botões */
+    height: 60vh;            /* altura para centralizar melhor na tela */
+}
+
+/* Esse trecho é pra deixar os botões com um visual mais moderno */
+.botao {
+    display: inline-block;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px;
+    transition: all 0.3s ease; /* dá um efeito suave */
+}
+
+/* Aqui é o efeito quando passa o mouse por cima do botão */
+.botao:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
