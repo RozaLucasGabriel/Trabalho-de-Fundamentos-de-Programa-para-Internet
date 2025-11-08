@@ -21,4 +21,5 @@ A ideia é criar um **gerador de currículos** onde o usuário preenche seus dad
 1. Instale o [XAMPP](https://www.apachefriends.org/pt_br/index.html)  
 2. Coloque a pasta do projeto dentro de: C:\xampp\htdocs\curriculo
 3. Inicie o Apache no painel do XAMPP  
-4. No navegador, acesse: http://localhost/curriculo/insert.php
+4. No navegador, acesse: [http://localhost/curriculo/insert.php](http://localhost/curriculo/)
+   
